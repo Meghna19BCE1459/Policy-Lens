@@ -40,8 +40,7 @@ source venv/bin/activate     # Mac/Linux
 pip install -r requirements.txt
 ```
 ### 4. Set up your API keys
-Create a `.env` file in the root folder: GROQ_API_KEY=your_groq_api_key_here
-Get a free Groq API key at https://console.groq.com
+Create a `.env` file in the root folder: GROQ_API_KEY=your_groq_api_key_here. Get a free Groq API key at https://console.groq.com
 ### 5. Run the app
 ```bash
 streamlit run app.py
